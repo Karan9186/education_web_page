@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    transition: all ease 0.5s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+nav{
+    display: flex;
+    padding-inline-start: 10em;
+    padding-top: 2em;
+    z-index: 999;
+    color:black;
+    font-weight: 900;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid black;
+    /* border-radius: 1vh; */
+    width: 100%;
+    box-shadow: 0vh 0vh 1vh .5vh grey;
+}
+nav img{
+    height: 15vh;
+    width: 15vh;
+    margin-top: -4vh;
+}
+.links{
+    padding-inline-start: 40em;
+    text-transform: capitalize;
+    margin-top: 2vh;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    padding-inline-start: 1.5em;
+    list-style: none;
+    font-size: 1.2em;
+}
+.links ul li a{
+    color:blueviolet;
+    text-decoration: none;
+    
+}
+.links ul li a:hover{
+    color:black;
+}
+.links ul li button{
+    width: 20vh;
+    height: 5vh;
+    text-transform: capitalize;
+    border-radius: 1vh;
+    border:.3vh solid black;
+    background-color: rgba(137, 43, 226, 0.666);
+    color:white;
+    font-weight: 900;
+    font-size: 2.5vh;
+    margin-top: -1vh;
+}
+.links ul li button:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.section{
+    display: flex;
+}
+.section .div1{
+    margin-left: 20vh;
+    /* border-left:.5vh solid black; */
+    padding-left: 1vh;
+    margin-top:16%;
+    color:black;
+    
+}
+
+.section div h1{
+    padding-bottom: 5vh;
+}
+
+.section div button{
+    padding:2vh 5vh 2vh 5vh;
+    font-size:2vh;
+    background-color:azure;
+    border-radius: 1vh;
+    border:.3vh solid black
+}
+
+.section div button:hover{
+    background-color:rgba(0, 0, 255, 0.424);
+}
+.img_01 img{
+    height: 80vh;
+    width: 110vh;
+    padding-right: 10vh;
+}
+
+.our_vision{
+    display: flex;
+    padding:3vh 3vh 3vh 3vh ;
+    
+}
+.our_vision h3{
+    font-size: 5.5vh;
+    padding-top: 17vh;
+    text-transform: capitalize;
+    color:blueviolet;
+    letter-spacing: .3ch;
+    text-align: center;
+}
+.our_vision p{
+    padding:3vh 10vh 3vh 10vh;
+    font-size: 3.4vh;
+    border-left: 1vh solid rgba(0, 0, 255, 0.395);
+    border-bottom: 1vh solid rgba(0, 0, 255, 0.395);
+}
+.our_vision img{
+    height: 75vh;
+    width: 75vh;
+    margin-right: 10vh;
+    
+    padding:3vh 3vh 3vh 3vh;
+   
+}
+.our_vision_line img{
+    height: 100px;
+    margin-top: -39px;
+    margin-left: 42vh;
+    width: 150px;
+}
+.img_our_vision{
+    border-right:1vh solid rgba(0, 0, 255, 0.395);
+    border-bottom: 1vh solid rgba(0, 0, 255, 0.395);
+}
+#services{
+    padding:7vh 30vh 7vh 7vh;
+    text-transform: capitalize;
+}
+#services h1{
+    padding-bottom: 3vh;
+    text-align: center;
+    font-size: 5.5vh;
+    text-transform: uppercase;
+    color:blueviolet;
+    letter-spacing: .3ch;
+    
+}
+
+.ser .con1{
+    padding:3vh 3vh 3vh 3vh;
+    display: flex;
+    border-radius: 3vh;
+    background-color:aliceblue;
+}
+.ser .con1:hover{
+    background-color:rgb(223, 240, 255);
+
+}
+.con1 img{
+    height: 40vh;
+    width: 40vh;
+}
+.con1 p{
+    font-size: 3vh;
+    letter-spacing: .2ch;
+    line-height: 2.5ch;
+}
+.con1 button{
+    padding: 1vh 1vh 1vh 1vh;
+    font-size: 3vh;
+    width: 30vh;
+    border-radius: 1vh;
+    border:0.3vh solid black;
+    background-color: rgba(0, 0, 255, 0.374);
+}
+.con1 div{
+    padding-right: 20vh;
+}
+.con1 button:hover{
+    background-color: aliceblue;
+    margin-left: 2vh;
+}
+
+#our_vision{
+    padding:5vh 5vh 5vh 5vh;
+}
+
+#our_vision h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3ch;
+    font-size: 5vh;
+    color: blueviolet;
+}
+.v_con{
+    padding:3vh 3vh 3vh 3vh;
+    display: flex;
+}
+.v_con img{
+    height: 90vh;
+    width: 90vh;
+}
+.v_con p{
+    padding:13vh 3vh 3vh 3vh;
+    font-size: 3vh;
+    letter-spacing: 0.2ch;
+}
+.vision_point{
+    padding: 5vh 3vh 3vh 10vh;
+    font-size: 3vh;
+    color: blueviolet;
+    font-weight: 900;
+}
+.vision_point ul li{
+    list-style: none;
+    line-height:3ch;
+}
+.vision_point ul li .icon_arrow{
+    color: black;
+}
+#contact{
+    background-color: aliceblue;
+    padding:10vh 3vh 3vh 3vh
+}
+.contact_con1 {
+    padding-left: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact_con1 h1 {
+    font-size: 6vh;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding-bottom: 3vh;
+}
+
+.contact_con1 h3 {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-size: 3vh;
+}
+.contact_con1 p{
+    font-size: 4vh;
+}
+.contact_con1 h4{
+    font-size: 3vh;
+}
+.contact_img {
+    padding-left: 10rem;
+    margin-top: -.9rem;
+    padding-right: 20vh;
+}
+
+.contact_img img {
+    height: 50vh;
+    width:50vh;
+    border-radius: 50%;
+    border: 1rem solid blueviolet;
+
+}
+.social_icons{
+    padding-left: 30vh;
+    letter-spacing: 2ch;
+    margin-top: -30vh;
+}
+.social_icons img{
+    height: 10vh;
+    width: 10vh;
+}
+
+
+
+.footer {
+    background: rgba(137, 43, 226, 0.473);
+    padding: 4%;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vh;
+}
+
+.footer .box-container .box {
+    padding: 1rem 0;
+    flex: 1 1 25em;
+
+}
+
+.footer .box-container .box h3 {
+    font-size: 5vh;
+    padding: .7em 0;
+}
+
+.footer .box-container .box p {
+    font-size: 3.5vh;
+    padding: .7em 0;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 3.5vh;
+    padding: .7em 0;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a:hover {
+    color: rgb(128, 0, 247);
+
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: normal;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 0.1em solid rgba(0, 0, 0, 0.791);
+}
