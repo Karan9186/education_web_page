@@ -5,7 +5,12 @@
     transition: all ease 0.5s;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
-
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
 nav{
     display: flex;
     padding-inline-start: 10em;
@@ -26,7 +31,8 @@ nav img{
     margin-top: -4vh;
 }
 .links{
-    padding-inline-start: 40em;
+    padding-inline-start: 40vh;
+    margin-left: 35vh;
     text-transform: capitalize;
     margin-top: 2vh;
 }
@@ -329,4 +335,263 @@ nav img{
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-top: 0.1em solid rgba(0, 0, 0, 0.791);
+}
+
+@media (max-width:1655px) {
+    .social_icons img{
+        height: 7vh;
+        width: 7vh;
+        margin-top: 24vh;
+    }    
+    .contact_img img{
+        height: 30vh;
+        width: 30vh;
+    }
+    #our_vision{
+        padding:0;
+        margin:0;
+    }
+    #services{
+        padding:0vh 3vh 0vh 3vh;
+    }
+    .our_vision{
+        padding:0vh 2vh 0vh 2vh;
+    }
+    .our_vision img{
+        margin-top:17vh
+    }
+    .img_01 img{
+        height: 80vh;
+        width: 80vh;
+    }
+    .section .div1 h1{
+        padding-top: 10vh;
+    }
+    .links{
+        padding-inline-start: 45vh;
+    }
+}
+
+@media (max-width:1500px){
+    #our_vision{
+        padding: 0;
+
+    }
+    #vision_point .v_con img{
+        height: 50vh;
+        width: 50vh;
+    }
+}
+
+@media (max-width:1360px) {
+    .links{
+        padding-inline-start: 15vh;
+    }
+    .img_01 img{
+        height: 60vh;
+        width: 60vh;
+        margin-top:10vh
+    }
+    .img_our_vision img{
+        height: 50vh;
+        width: 50vh;
+    }
+    #our_vision .v_con img{
+        height: 60vh;
+        width: 60vh;
+        margin-top:10vh
+    }
+    #our_vision .v_con p{
+        font-size: 2.5vh;
+    }
+    .social_icons img{
+        margin-top:25vh;
+    }
+    .con1 p{
+        font-size: 2.5vh;
+    }
+    .contact_con1 p{
+        font-size: 3vh;
+    }
+    .contact_con1 h1{
+        font-size: 5vh;
+    }
+    .our_vision p{
+        font-size: 2.9vh;
+    }
+}
+
+@media (max-width:1150px) {
+    nav{
+        height: 15vh;
+    }
+    .logo img{
+        height: 14vh;
+        width: 14vh;
+        margin-top:-5vh;
+        margin-left: -20vh;
+    }
+    
+    .img_01 img{
+        height: 55vh;
+        width: 55vh;
+    }
+    .div1 h1{
+        font-size: 4.5vh;
+        margin-left: -10vh;
+    }
+    .our_vision p{
+        font-size: 2.5vh;
+        padding: 2vh 0vh 0vh 2vh;
+    }
+    .img_our_vision img{
+        height: 40vh;
+        width: 40vh;
+        margin-left: 4vh;
+    }
+    #services .con1 {
+        font-size: 2.5vh;
+        padding: 1vh 0vh 0vh 2vh;
+    }
+    #services .con1 img{
+        padding: 0;
+        margin-top:20vh;
+        margin-right: 10vh;
+    }
+    #our_vision .v_con img{
+        height: 40vh;
+        width: 40vh;
+        margin-top: 20vh;
+    }
+    .social_icons img{
+        margin-top:30vh
+    }
+}
+
+@media (max-width:1050px) {
+    nav{
+        height: 15vh;
+    }
+    .logo img{
+        height: 14vh;
+        width: 14vh;
+        margin-top:-5vh;
+        margin-left: -20vh;
+    }
+    .img_01 img{
+        height: 50vh;
+        width: 50vh;
+    }
+    .contact_con1{
+        padding: 0;
+    }
+    .contact_1 div{
+        margin-left: 1vh;
+        padding: 0;
+    }
+}
+
+@media (max-width:960px) {
+    nav{
+        height: 14vh;
+    }
+    .logo img{
+        height: 13vh;
+        width: 13vh;
+        margin-top:-5vh;
+        margin-left: -20vh;
+    }
+    .img_01 img{
+        margin-top: 16vh;
+        height: 50vh;
+        width: 50vh;
+        margin-left: 5vh;
+    }
+    .div1 h1{
+        margin-left:-16vh;
+    }
+    .div1 button{
+        margin-left: -11vh;
+    }
+    .our_vision p{
+        font-size: 2.5vh;
+    }
+    .img_our_vision img{
+        height: 40vh;
+        width: 40vh;
+        margin-top: 25vh;
+    }
+}
+
+@media (max-width:750px) {
+    nav{
+        height: 14vh;
+    }
+    .logo img{
+        height: 12vh;
+        width: 12vh;
+        margin-top:-3vh;
+        margin-left: -20vh;
+    }
+    .section .div1 h1{
+        font-size: 3vh;
+    }
+    .img_01 img{
+        height: 30vh;
+        width: 40vh;
+
+    }
+    .section .div1 button{
+        width: 20vh;
+        padding: 1vh 1vh 1vh 1vh;
+        margin-left: -17vh;
+    }
+    .our_vision p{
+        font-size: 2.1vh;
+    }
+    .img_our_vision img{
+        height: 30vh;
+        width: 30vh;
+        margin-top: 20vh;
+    }
+    .v_con{
+        display: inline;
+    }
+    .v_con .img_v{
+        margin-left: 10vh;
+    }
+    #our_vision{
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width:630px) {
+    nav{
+        height: 10vh;
+    }
+    .logo img{
+        height: 10vh;
+        width: 10vh;
+        margin-top:-5vh;
+        margin-left: -20vh;
+    }
+    .img_01 img{
+        height: 30vh;
+        width: 40vh;
+        margin-left: 0vh;
+    }
+    .img_our_vision img{
+        margin-left: -2vh;
+    }
+    .con1 p{
+        font-size: 2vh;
+    }
+    .social_icons img{
+        margin-top: 33vh;
+    }
+    .contact_img img{
+        height: 20vh;
+        width: 20vh;
+        margin-top:10vh;
+    }
 }
