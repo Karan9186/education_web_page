@@ -30,6 +30,15 @@ nav img{
     width: 15vh;
     margin-top: -4vh;
 }
+nav .nav_icon{
+    font-size: 7vh;
+    float: right;
+    line-height: 20vh;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    padding-inline-start: 26vh
+}
 .links{
     padding-inline-start: 40vh;
     margin-left: 35vh;
@@ -38,11 +47,13 @@ nav img{
 }
 
 .links ul{
-    display: flex;
+    /* display: flex; */
+    float: right;
 }
 
 .links ul li{
     padding-inline-start: 1.5em;
+    display: inline-block;
     list-style: none;
     font-size: 1.2em;
 }
@@ -120,7 +131,8 @@ nav img{
     padding:3vh 10vh 3vh 10vh;
     font-size: 3.4vh;
     border-left: 1vh solid rgba(0, 0, 255, 0.395);
-    border-bottom: 1vh solid rgba(0, 0, 255, 0.395);
+    /* border-bottom: 1vh solid rgba(0, 0, 255, 0.395); */
+    /* margin-top:10vh */
 }
 .our_vision img{
     height: 75vh;
@@ -138,7 +150,7 @@ nav img{
 }
 .img_our_vision{
     border-right:1vh solid rgba(0, 0, 255, 0.395);
-    border-bottom: 1vh solid rgba(0, 0, 255, 0.395);
+    /* border-bottom: 1vh solid rgba(0, 0, 255, 0.395); */
 }
 #services{
     padding:7vh 30vh 7vh 7vh;
@@ -337,7 +349,30 @@ nav img{
     border-top: 0.1em solid rgba(0, 0, 0, 0.791);
 }
 
+@media (max-width:1866px) {
+    .links{
+        margin-top:11vh;
+        display: none;
+        position: relative;
+    }
+    .links ul{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: grey;
+    }
+    .links ul li{
+        display:grid;
+        padding-top: 3vh;
+    }
+    nav .nav_icon{
+        margin-left: 100vh;
+        display: unset;
+    }
+}
+
 @media (max-width:1655px) {
+    
     .social_icons img{
         height: 7vh;
         width: 7vh;
@@ -370,9 +405,18 @@ nav img{
     .links{
         padding-inline-start: 45vh;
     }
+    nav .nav_icon{
+        margin-left: 80vh;
+        display: unset;
+    }
 }
 
 @media (max-width:1500px){
+  
+    nav .nav_icon{
+        margin-left: 60vh;
+        display: unset;
+    }
     #our_vision{
         padding: 0;
 
@@ -384,6 +428,12 @@ nav img{
 }
 
 @media (max-width:1360px) {
+    
+    nav .nav_icon{
+        margin-left: 50vh;
+        display: unset;
+    }
+    
     .links{
         padding-inline-start: 15vh;
     }
@@ -422,6 +472,11 @@ nav img{
 }
 
 @media (max-width:1150px) {
+  
+    nav .nav_icon{
+        margin-left: 40vh;
+        display: unset;
+    }
     nav{
         height: 15vh;
     }
@@ -429,7 +484,7 @@ nav img{
         height: 14vh;
         width: 14vh;
         margin-top:-5vh;
-        margin-left: -20vh;
+        margin-left: -17vh;
     }
     
     .img_01 img{
@@ -469,6 +524,11 @@ nav img{
 }
 
 @media (max-width:1050px) {
+ 
+    nav .nav_icon{
+        margin-left: 40vh;
+        display: unset;
+    }
     nav{
         height: 15vh;
     }
@@ -476,7 +536,7 @@ nav img{
         height: 14vh;
         width: 14vh;
         margin-top:-5vh;
-        margin-left: -20vh;
+        margin-left: -17vh;
     }
     .img_01 img{
         height: 50vh;
@@ -492,6 +552,10 @@ nav img{
 }
 
 @media (max-width:960px) {
+    nav .nav_icon{
+        margin-left: 30vh;
+        display: unset;
+    }
     nav{
         height: 14vh;
     }
@@ -499,7 +563,7 @@ nav img{
         height: 13vh;
         width: 13vh;
         margin-top:-5vh;
-        margin-left: -20vh;
+        margin-left: -16vh;
     }
     .img_01 img{
         margin-top: 16vh;
@@ -524,6 +588,10 @@ nav img{
 }
 
 @media (max-width:750px) {
+    nav .nav_icon{
+        margin-left: 8vh;
+        display: unset;
+    }
     nav{
         height: 14vh;
     }
@@ -531,7 +599,7 @@ nav img{
         height: 12vh;
         width: 12vh;
         margin-top:-3vh;
-        margin-left: -20vh;
+        margin-left: -16vh;
     }
     .section .div1 h1{
         font-size: 3vh;
@@ -566,14 +634,27 @@ nav img{
 }
 
 @media (max-width:630px) {
+    nav .nav_icon{
+        margin-left: 0vh;
+        display: unset;
+        margin-top: -3vh;
+        /* position: relative; */
+    }
     nav{
         height: 10vh;
+    }
+    .links ul li{
+        margin-left: -60vh;
+        background-color: grey;
+        padding: 3vh 3vh;
+        margin-top: -5vh;
+        width: 100%;
     }
     .logo img{
         height: 10vh;
         width: 10vh;
         margin-top:-5vh;
-        margin-left: -20vh;
+        margin-left: -15vh;
     }
     .img_01 img{
         height: 30vh;
