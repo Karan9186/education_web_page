@@ -24,6 +24,7 @@
                 <li><button>read more</button></li>
             </ul>
         </div>
+        <ion-icon name="reorder-three-sharp" class="nav_icon"></ion-icon>
         <br><br><br>
     </nav>
     <br><br><br>
@@ -49,9 +50,9 @@
             </div>
 
             <p>Hard-level projects push boundaries, demanding deep expertise and dedication. They test problem-solving, innovation, and critical thinking skills. Completing such projects, be it in web development, science, or any field, yields not only accomplishments but also invaluable knowledge and the confidence to tackle even greater challenges.
-                 <br><br><br><br><br>
+                <br><br><br><br>
             </p>
-        </div>
+             </div>
 
         <div class="img_our_vision">
             <img src="our_cision_v2.jpg" alt="#">
@@ -239,6 +240,16 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".nav_icon").click(function(){
+            $(".links").fadeToggle();
+            
+        });
+    });
+</script>
 </body>
 
 </html>
