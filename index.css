@@ -37,7 +37,7 @@ nav .nav_icon{
     cursor: pointer;
     display: none;
     position: fixed;
-    padding-inline-start: 26vh
+    /* padding-inline-start: 256vh */
 }
 .links{
     padding-inline-start: 40vh;
@@ -349,6 +349,73 @@ nav .nav_icon{
     border-top: 0.1em solid rgba(0, 0, 0, 0.791);
 }
 
+@media (max-width:2595px) {
+    nav .nav_icon{
+        display: none;
+    }
+    .links ul{
+        margin-left: 68vh;
+    }
+}
+
+@media (max-width:2455px) {
+    nav .nav_icon{
+        display: none;
+    }
+    .links ul{
+        margin-left: 58vh;
+    }
+}
+
+@media (max-width:2345px) {
+    nav .nav_icon{
+        display: none;
+    }
+    .links ul{
+        margin-left: 48vh;
+    }
+}
+
+@media (max-width:2235px) {
+    nav .nav_icon{
+        display: none;
+    }
+    .links ul{
+        margin-left: 38vh;
+    }
+}
+
+@media (max-width:2125px) {
+    nav .nav_icon{
+        display: none;
+    }
+    .links ul{
+        margin-left: 28vh;
+    }
+}
+
+@media (max-width:2025px) {
+    nav .nav_icon{
+        display: none;
+    }
+    .links ul{
+        margin-left: 18vh;
+    }
+}
+@media (max-width:1925px) {
+    nav .nav_icon{
+        margin-left: 200vh;
+        display: unset;
+    }
+}
+
+@media (max-width:1850px) {
+    nav .nav_icon{
+        padding-inline-start: 40vh;
+        display:unset;
+    }
+}
+
 @media (max-width:1866px) {
     .links{
         margin-top:11vh;
@@ -366,11 +433,17 @@ nav .nav_icon{
         padding-top: 3vh;
     }
     nav .nav_icon{
-        margin-left: 100vh;
+        margin-left: 145vh;
         display: unset;
     }
 }
 
+@media (max-width:1845px) {
+    nav .nav_icon{
+        display: unset;
+        margin-left: 100vh;
+    }
+}
 @media (max-width:1655px) {
     
     .social_icons img{
@@ -406,7 +479,7 @@ nav .nav_icon{
         padding-inline-start: 45vh;
     }
     nav .nav_icon{
-        margin-left: 80vh;
+        margin-left: 85vh;
         display: unset;
     }
 }
@@ -414,7 +487,7 @@ nav .nav_icon{
 @media (max-width:1500px){
   
     nav .nav_icon{
-        margin-left: 60vh;
+        margin-left: 70vh;
         display: unset;
     }
     #our_vision{
@@ -430,7 +503,7 @@ nav .nav_icon{
 @media (max-width:1360px) {
     
     nav .nav_icon{
-        margin-left: 50vh;
+        margin-left: 60vh;
         display: unset;
     }
     
@@ -526,7 +599,7 @@ nav .nav_icon{
 @media (max-width:1050px) {
  
     nav .nav_icon{
-        margin-left: 40vh;
+        margin-left: 30vh;
         display: unset;
     }
     nav{
@@ -553,7 +626,7 @@ nav .nav_icon{
 
 @media (max-width:960px) {
     nav .nav_icon{
-        margin-left: 30vh;
+        margin-left: 20vh;
         display: unset;
     }
     nav{
@@ -586,10 +659,15 @@ nav .nav_icon{
         margin-top: 25vh;
     }
 }
-
+@media (max-width:860px) {
+    nav .nav_icon{
+        margin-left: 10vh;
+        display: unset;
+    }
+}
 @media (max-width:750px) {
     nav .nav_icon{
-        margin-left: 8vh;
+        margin-left: 3vh;
         display: unset;
     }
     nav{
@@ -635,7 +713,7 @@ nav .nav_icon{
 
 @media (max-width:630px) {
     nav .nav_icon{
-        margin-left: 0vh;
+        margin-left: -10vh;
         display: unset;
         margin-top: -3vh;
         /* position: relative; */
@@ -674,5 +752,12 @@ nav .nav_icon{
         height: 20vh;
         width: 20vh;
         margin-top:10vh;
+    }
+}
+
+@media (max-width:540px) {
+    nav .nav_icon{
+        margin-left: -17vh;
+        display: unset;
     }
 }
